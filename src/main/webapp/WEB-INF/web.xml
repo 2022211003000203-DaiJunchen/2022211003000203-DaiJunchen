@@ -7,8 +7,24 @@
         <servlet-name>djc</servlet-name>
         <servlet-class>com.DaiJunchen.week2.homework.HelloWorldServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <servlet-class>com.DaiJunchen.week3.demo.LIfeCycleServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.DaiJunchen.week3.demo.RegisterServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>djc</servlet-name>
         <url-pattern>/d7100</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <url-pattern>/life</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
     </servlet-mapping>
 </web-app>

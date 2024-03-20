@@ -12,13 +12,13 @@
 </head>
 <body>
 New User Registration!
-<form>
+<form method="post" action="register">
     <input type="text" name="username" placeholder="username"><br/>
     <input type="text" name="password" placeholder="password"><br/>
     <input type="text" name="email" placeholder="email"><br/>
-    Gender <input type="radio" name="sex" value="Male">Male
-    <input type="radio" name="sex" value="female">female<br/>
-    <input type="text" name="Date of Birth" placeholder="Date of Birth(yyy-mm-dd)"><br/>
+    Gender <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="female">female<br/>
+    Date of Birth <input type="text" name="birthDate" placeholder="Date of Birth(yyy-mm-dd)"><br/>
     <input type="submit" name="Register" value="Register">
 
 </form>
